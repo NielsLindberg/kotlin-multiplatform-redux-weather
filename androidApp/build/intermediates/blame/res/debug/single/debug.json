@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/nielslindberg-poulsen/Workspace/Learning/kmpweather/androidApp/build/intermediates/res/merged/debug/layout_place_view.xml.flat",
+        "source": "/Users/nielslindberg-poulsen/Workspace/Learning/kmpweather/androidApp/src/main/res/layout/place_view.xml"
+    },
+    {
+        "merged": "/Users/nielslindberg-poulsen/Workspace/Learning/kmpweather/androidApp/build/intermediates/res/merged/debug/layout_places.xml.flat",
+        "source": "/Users/nielslindberg-poulsen/Workspace/Learning/kmpweather/androidApp/src/main/res/layout/places.xml"
+    }
+]

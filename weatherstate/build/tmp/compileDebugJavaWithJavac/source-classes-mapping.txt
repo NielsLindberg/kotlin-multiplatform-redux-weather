@@ -1,0 +1,2 @@
+dk/shape/weatherstate/BuildConfig.java
+ dk.shape.weatherstate.BuildConfig

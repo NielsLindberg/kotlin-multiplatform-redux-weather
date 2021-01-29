@@ -1,0 +1,29 @@
+dk/shape/kmpweather/androidApp/BR.java
+ dk.shape.kmpweather.androidApp.BR
+dk/shape/kmpweather/androidApp/DataBinderMapperImpl.java
+ dk.shape.kmpweather.androidApp.DataBinderMapperImpl
+ dk.shape.kmpweather.androidApp.DataBinderMapperImpl$InnerBrLookup
+ dk.shape.kmpweather.androidApp.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+dk/shape/kmpweather/androidApp/DataBindingInfo.java
+ dk.shape.kmpweather.androidApp.DataBindingInfo
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+dk/shape/kmpweather/androidApp/BuildConfig.java
+ dk.shape.kmpweather.androidApp.BuildConfig
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+me/tatarka/bindingcollectionadapter2/BR.java
+ me.tatarka.bindingcollectionadapter2.BR
+me/tatarka/bindingcollectionadapter2/recyclerview/BR.java
+ me.tatarka.bindingcollectionadapter2.recyclerview.BR
+dk/shape/kmpweather/androidApp/databinding/PlacesBindingImpl.java
+ dk.shape.kmpweather.androidApp.databinding.PlacesBindingImpl
+dk/shape/kmpweather/androidApp/databinding/PlaceViewBindingImpl.java
+ dk.shape.kmpweather.androidApp.databinding.PlaceViewBindingImpl
+ dk.shape.kmpweather.androidApp.databinding.PlaceViewBindingImpl$OnClickListenerImpl
+dk/shape/kmpweather/androidApp/databinding/PlacesBinding.java
+ dk.shape.kmpweather.androidApp.databinding.PlacesBinding
+dk/shape/kmpweather/androidApp/databinding/PlaceViewBinding.java
+ dk.shape.kmpweather.androidApp.databinding.PlaceViewBinding

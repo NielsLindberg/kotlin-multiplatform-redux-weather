@@ -1,0 +1,2 @@
+dk/shape/networking/BuildConfig.java
+ dk.shape.networking.BuildConfig
