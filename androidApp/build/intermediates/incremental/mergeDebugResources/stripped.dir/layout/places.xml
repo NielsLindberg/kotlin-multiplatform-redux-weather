@@ -9,9 +9,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/placesList"
-        android:layout_width="0dp"
-        android:layout_height="303dp"
-        android:layout_marginTop="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:tag="layout/places_0"           
                                          
                                     

@@ -1,7 +1,7 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
-    kotlin("plugin.serialization") version "1.4.10"
+
 }
 
 kotlin {
@@ -18,7 +18,6 @@ kotlin {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2")
                 implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.1.1")
-                implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0")
                 implementation(project(":networking"))
             }
         }

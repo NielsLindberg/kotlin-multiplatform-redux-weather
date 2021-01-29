@@ -3,6 +3,8 @@ package dk.shape.weatherstate
 import dk.shape.weatherstate.framework.redux.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import kotlin.coroutines.CoroutineContext
 
@@ -12,12 +14,13 @@ class DefaultStore<AppState : State>(
     private val middleware: List<Middleware<AppState>>
 ) : Store<AppState>, CoroutineScope {
 
-    override val state: MutableState<AppState> = mutableStateOf(initialState)
+    private val _state = MutableStateFlow(initialState)
+    override val state: StateFlow<AppState> = _state
 
     override fun dispatch(action: Action) {
         launch {
             val newAction = applyMiddleware(state.value, action)
-            state.value = reducer(state.value, newAction)
+            _state.value = reducer(state.value, newAction)
 
         }
     }
