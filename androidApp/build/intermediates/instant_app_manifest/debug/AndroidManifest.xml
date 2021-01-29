@@ -9,6 +9,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="29" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="dk.shape.kmpweather.androidApp.AndroidApp"
         android:allowBackup="false"

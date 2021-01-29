@@ -65,6 +65,10 @@ INJECTED from /Users/nielslindberg-poulsen/Workspace/Learning/kmpweather/android
 		INJECTED from /Users/nielslindberg-poulsen/Workspace/Learning/kmpweather/androidApp/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/nielslindberg-poulsen/Workspace/Learning/kmpweather/androidApp/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nielslindberg-poulsen/Workspace/Learning/kmpweather/androidApp/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/nielslindberg-poulsen/Workspace/Learning/kmpweather/androidApp/src/main/AndroidManifest.xml:4:22-64
 application
 ADDED from /Users/nielslindberg-poulsen/Workspace/Learning/kmpweather/androidApp/src/main/AndroidManifest.xml:5:5-16:19
 MERGED from [me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:4.0.0] /Users/nielslindberg-poulsen/.gradle/caches/transforms-2/files-2.1/386ed65a56ac31f77a9ef87bb74387c6/bindingcollectionadapter-recyclerview-4.0.0/AndroidManifest.xml:7:5-20

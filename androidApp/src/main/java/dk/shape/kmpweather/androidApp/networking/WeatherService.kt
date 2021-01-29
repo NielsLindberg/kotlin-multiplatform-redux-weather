@@ -5,6 +5,7 @@ import dk.shape.networking.NetworkCall
 import dk.shape.networking.WeatherServiceProtocol
 import dk.shape.networking.forecast.ForecastGroupResponse
 import dk.shape.networking.places.PlaceGroupResponse
+import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType
 import okhttp3.OkHttpClient
@@ -73,6 +74,7 @@ class WeatherService(apiKey: String) : WeatherServiceProtocol {
             }.build()
     }
 
+    @ExperimentalSerializationApi
     private fun initWeatherAPI(httpClient: OkHttpClient): RetrofitService {
         val retrofit = Retrofit.Builder()
             .baseUrl(baseUrl)

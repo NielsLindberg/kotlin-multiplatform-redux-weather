@@ -17,6 +17,7 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.1")
+                implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0")
             }
         }
         val androidMain by getting
